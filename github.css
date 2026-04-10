@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to right, #66412b, #754937);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding: 24px;
+    
+}
+
+.frase-cabecalho{
+    color: #FFF2E7;
+}
+
+.foto-gui{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-cabecalho{
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo-principal{
+     border-top: 0.4px solid #FFF2E7;
+    position: relative;
+    min-height: 600px;
+}
+
+.github {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+
+.github h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.img-github {
+  width: 120px;
+  margin: 20px 0;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.github p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #2c1a12;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.botao:hover {
+  background: #5a3525;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    color: #FFF2E7;
+    text-decoration: none;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.git{
+    color: blue;
+    text-decoration: underline;
+}
+
+.insta{
+    color: blue;
+    text-decoration: underline;
+}
+
+.imagem-casa{
+    width: 40px;
+  height: auto;
+  
+}
