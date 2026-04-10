@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to right, #66412b, #754937);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding: 24px;
+    
+}
+
+.frase-cabecalho{
+    color: #FFF2E7;
+}
+
+.foto-gui{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-cabecalho{
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+
+.conteudo-principal{
+     border-top: 0.4px solid #FFF2E7;
+    position: relative;
+    min-height: 600px;
+}
+
+.post-it1{
+    width: 250px;
+  padding: 20px;
+  background: #fce38a; 
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  transform: rotate(-4deg);
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  
+}
+
+.post-it2{
+    width: 250px;
+  padding: 20px;
+  background: #fce38a; 
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  position: absolute;
+  top: 50px;
+  left: 420px;
+  
+}
+
+.post-it3{
+       width: 250px;
+  padding: 20px;
+  background: #fce38a; 
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  position: absolute;
+  top: 50px;
+  left: 850px;
+}
+
+.post-it4{
+       width: 250px;
+  padding: 20px;
+  background: #fce38a; 
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  position: absolute;
+  top: 50px;
+  left: 1250px;
+}
+
+.post-it5{
+     width: 250px;
+  padding: 20px;
+  background: #fce38a; 
+  color: #333;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  position: absolute;
+  transform: rotate(4deg);
+  top: 50px;
+  left: 1650px;
+}
+
+.projetos {
+  margin-top: 500px;
+  text-align: center;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    color: #FFF2E7;
+    text-decoration: none;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.imagem-casa{
+    width: 40px;
+  height: auto;
+  
+}
